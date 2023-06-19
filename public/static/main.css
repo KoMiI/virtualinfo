@@ -1,0 +1,46 @@
+h1, h2, h3 {
+    color: #13326F;
+}
+
+html, body, #app, #application-level {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+#application-level {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#application-level > div {
+    height: 100%;
+    flex-grow: 1;
+}
+
+#main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#top-menu-container {
+    background-color: #F6F7F9;
+    border-bottom: 1px solid #F6F7F9;
+    flex-shrink: 0;
+    height: 44px;
+}
+
+#main {
+    padding: 0 20px;
+    overflow: auto;
+}
